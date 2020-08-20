@@ -1,0 +1,302 @@
+*{
+	margin : 0px;
+	padding : 0px;
+}
+
+body{
+	margin : 0 auto;
+	width : 100%;
+	min-width : 100%;
+	min-height : 100%;
+	overflow-x : hidden;
+}
+
+li{
+	list-style-type : none;
+}
+
+.clear {
+	clear : both;
+}
+
+#header{
+	margin : 0 auto;
+	position : relative;
+	width : 1980px;
+	height : 100px;
+	background-color : #000030;
+}
+
+#header .Logo{
+	width : 180px;
+	height : 70px;
+	position : absolute;
+	top : 65%;
+    left : 14%;
+    margin : -50px 0 0 -50px;
+}
+
+#main {
+	margin : 0 auto;
+}
+
+#main_menu {
+	position : absolute;
+	top : 37px;
+	left : 0;
+	width : 1750px;
+	height : 63px;
+	text-align : center;
+	font-size : 17px;
+	font-weight : bold;
+	color : white;
+}
+
+#main_menu li{
+	display : inline;
+	margin-left : 90px;
+}
+
+#main_menu a:link{
+	text-decoration : none;
+	color : white;
+}
+
+#main_menu a:hover{
+	text-decoration : none;
+	color : white;
+}
+
+#main_menu a:visited{
+	text-decoration : none;
+	color : white;
+}
+
+#main_menu a:active{
+	text-decoration : none;
+	color : white;
+}
+
+#login_main {
+	text-align : center;
+	margin-top : 70px;
+}
+
+#Login_logo {
+	width : 400px;
+	height : 200px;
+}
+
+#login_menu {
+	position : absolute;
+	width : 300px;
+	top : 89%;
+    left : 75%;
+    margin : -50px 0 0 -50px;
+	font-size : 11px;
+	color : white;
+}
+
+#login_menu li{
+	display : inline;
+	margin-left : 40px;
+}
+
+#login_menu a:link{
+	text-decoration : none;
+	color : white;
+}
+
+#login_menu a:hover{
+	text-decoration : underline;
+	color : white;
+}
+
+#login_menu a:visited{
+	text-decoration : underline;
+	color : white;
+}
+
+#login_menu a:active{
+	text-decoration : underline;
+	color : white;
+}
+
+.jbFixed {
+    position: fixed;
+    top: -102px;
+}
+
+#riMaker_bar {
+	width : 53px;
+	background : #fff;
+	border-right : 1px solid #eaeaea;
+	position : absolute;	
+	top : 100px; left : 0;
+}
+
+#riMaker_bar ul li {
+	width : 100%; 
+	height : 50px;
+	border-bottom : 1px solid #e3e8ed;
+}
+
+#riMaker_bar ul li a {
+	height : 50px; 
+	line-height : 50px;
+	display : block;
+	text-align : center;
+}
+
+#riMaker_bar ul li a img {
+	max-width : 44px; 
+	max-height : 30px;
+	vertical-align : middle;
+}
+
+#main_2{
+	width : 1900px;
+	margin : 0 auto;
+}
+
+.cousel-title{
+	font-family: 'Noto Sans KR', sans-serif;   /*회원가입,개인정보*/
+	font-size:30px;
+	text-align:center;
+}
+
+.cousel-title2{
+	font-family: 'Noto Sans KR', sans-serif;   /*약관,취급방침*/
+	font-size:30px;
+	text-align:center;
+	color:#fc825d;
+}
+
+.top{
+	margin-left:550px;
+	margin-top:50px;
+}
+
+.top2{
+	margin-left:550px;
+}
+
+hr{ 
+	border: 1px solid #dedede;             /*회색줄 속성*/
+	border-width: 3px 0 0;
+	width: 800px;
+	float:left;
+	text-align:center;
+	margin-top:3px;
+}
+
+.box{
+	border:2px solid #dedede;
+	width: 800px;
+	height:430px;
+	margin-left: 550px;
+	margin-top: 30px;
+}
+
+textarea{
+	margin-left:45px;
+	margin-top:13px;
+	width:700px;
+	height:300px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:17px;
+	border:2px dashed #dedede;
+	padding: 10px; 10px; 10px;
+	background-color:#dedede;
+}
+
+.agree{
+	margin-left:520px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:17px;
+}
+
+.counsel-btn{ 
+	width:8%;                                                /*동의함*/
+	padding:10px 10px 10px;
+	margin-left:780px;
+	margin-top:10px;
+	border:3px solid #848484;
+	background-color:#848484;
+	color:white;
+	font-size:20px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.counsel-btn2{ 
+	width:8%;                                                 /*동의안함*/
+	padding:10px 10px 10px;
+	margin-left:10px;
+	border:3px solid #BDBDBD;
+	background-color:#BDBDBD;
+	color:white;
+	font-size:20px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+footer{
+   width : 1980px;
+   height : 270px;
+   clear : both;
+   margin : 0 auto;
+   background-color : #F6F3F3;
+   margin-top : 200px;
+}
+
+footer{
+	padding : 20px 0 0 0px;
+	color : #666666;
+}
+
+footer #footer{
+	width : 1100px;
+	margin : 0 auto;
+}
+
+footer #footer_bar .blind {
+	margin-top : 20px;
+	margin-bottom : 30px;
+	font-size : 25px;
+	text-align : center;
+}
+
+footer #footer_bar li{
+	margin-top : 0px;
+	list-style-type : none;
+	font-size : 13px;
+	padding : 4px;
+}
+
+footer #footer_bar_2 li{
+	padding : 4px;
+	font-size : 14px;
+	font-weight : bold;
+	color : red;
+}
+footer #company_info{
+	margin-top : 20px;
+}
+
+footer #company_info li{
+	margin-top : 2px;
+	list-style-type : none;
+}
+
+footer #copyright{
+	margin-top : 10px;
+	font-size : 10px;
+	color : #888888;
+}
+
+footer .icon{
+	margin : 10px;
+	width:40px;
+	height:40px;
+	float : right;
+	display : inline;
+}
